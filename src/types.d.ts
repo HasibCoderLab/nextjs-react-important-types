@@ -1,13 +1,13 @@
-// declare global{
-//     type user ={
-//         name:string
-//     }
-// }
+declare global{
+    type user ={
+        name:string
+    }
+}
 
-// export {}
+export {}
 
 declare global{
-    type user = number| string
+    type hasib = number| string
         name:string;
     
 }

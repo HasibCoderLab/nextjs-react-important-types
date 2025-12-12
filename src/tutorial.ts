@@ -2,6 +2,6 @@
 //     name:"Hasib"
 // }
 
-let obj:user;
+let obj:hasib;
 obj="Hasib"
 obj=18
