@@ -7,13 +7,23 @@ const page = () => {
 function fn() {
   
 }
+
+const handleSubmit = (e:React.FormEvent) =>{
+
+}
+
+const handleClick = (e:React.MouseEvent) =>{
+
+}
+
 const input = useRef<HTMLInputElement>(null)
   return (
     <div>
-      <form action="">
+      <form action="" onSubmit={handleSubmit}>
         <input type="text" name="" id=""  ref={input}/>
       </form>
-      <Button data='Hasib'  action={fn}></Button>
+      <button onClick={handleClick}></button>
+      {/* <Button data='Hasib'  action={fn}></Button> */}
     </div>
   )
 }
