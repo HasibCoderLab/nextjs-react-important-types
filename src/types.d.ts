@@ -1,5 +1,5 @@
 declare global{
-    type hasib ={
+    type user ={
         name:string
     }
 }
