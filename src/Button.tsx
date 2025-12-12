@@ -6,7 +6,6 @@ type buttonProps ={
 }
 
 
-
 const Button = ({data}:buttonProps) => {
   return (
     <div>
