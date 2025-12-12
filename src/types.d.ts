@@ -1,7 +1,15 @@
+// declare global{
+//     type user ={
+//         name:string
+//     }
+// }
+
+// export {}
+
 declare global{
-    type user ={
-        name:string
-    }
+    type user = number| string
+        name:string;
+    
 }
 
 export {}
