@@ -15,12 +15,15 @@ const handleSubmit = (e:React.FormEvent) =>{
 const handleClick = (e:React.MouseEvent) =>{
 
 }
+const handleChange = (e:React.ChangeEvent) =>{
+e.target
+}
 
 const input = useRef<HTMLInputElement>(null)
   return (
     <div>
       <form action="" onSubmit={handleSubmit}>
-        <input type="text" name="" id=""  ref={input}/>
+        <input type="text" name="" id=""  ref={input} onChange={handleChange}/>
       </form>
       <button onClick={handleClick}></button>
       {/* <Button data='Hasib'  action={fn}></Button> */}
