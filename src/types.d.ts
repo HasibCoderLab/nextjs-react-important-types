@@ -13,3 +13,15 @@ declare global{
 }
 
 export {}
+
+
+
+declare global{
+  type name = string | number;
+  type likeObj ={
+    name:string
+  }
+    
+}
+
+export {}
