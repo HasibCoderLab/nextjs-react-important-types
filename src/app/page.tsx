@@ -4,10 +4,12 @@ import React, { useState } from 'react'
 
 const page = () => {
  const [count ,setCount] = useState<number>(0);
-
+function fn() {
+  
+}
   return (
     <div>
-      <Button data='Hasib'></Button>
+      <Button data='Hasib'  action={fn}></Button>
     </div>
   )
 }

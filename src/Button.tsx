@@ -1,7 +1,8 @@
 import React from 'react'
 
 type buttonProps ={
-    data:string;
+    data:string,
+    action:() => void 
 }
 
 
