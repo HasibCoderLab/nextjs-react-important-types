@@ -1,8 +1,16 @@
 import React from 'react'
 
-const Button = () => {
+type buttonProps ={
+    data:string;
+}
+
+
+
+const Button = ({data}:buttonProps) => {
   return (
-    <div>Button</div>
+    <div>
+        Hello
+    </div>
   )
 }
 

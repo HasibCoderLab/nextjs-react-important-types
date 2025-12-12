@@ -7,7 +7,7 @@ const page = () => {
 
   return (
     <div>
-      <Button></Button>
+      <Button data='Hasib'></Button>
     </div>
   )
 }
